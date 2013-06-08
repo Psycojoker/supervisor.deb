@@ -1,6 +1,6 @@
-src/supervisor/scripts/loop_eventgen.py
-src/supervisor/scripts/loop_listener.py
-src/supervisor/scripts/sample_commevent.py
-src/supervisor/scripts/sample_eventlistener.py
-src/supervisor/scripts/sample_exiting_eventlistener.py
-src/supervisor/skel/sample.conf
+supervisor/scripts/loop_eventgen.py
+supervisor/scripts/loop_listener.py
+supervisor/scripts/sample_commevent.py
+supervisor/scripts/sample_eventlistener.py
+supervisor/scripts/sample_exiting_eventlistener.py
+supervisor/skel/sample.conf

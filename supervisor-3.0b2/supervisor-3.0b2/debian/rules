@@ -40,7 +40,7 @@ clean:
 		python=$$(echo $$python | sed "s/$(PYDEF)/python/"); \
 		$$python setup.py clean; \
 	done
-	rm -f *.pyc build-stamp configure-stamp src/supervisor.egg-info/SOURCES.txt
+	rm -f *.pyc build-stamp configure-stamp supervisor.egg-info/SOURCES.txt
 
 	# Add here commands to clean up after the build process.
 	rm -rf build/
