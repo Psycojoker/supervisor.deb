@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: supervisor
+Version: 3.0a8
+Summary: A system for controlling process state under UNIX
+Home-page: http://supervisord.org/
+Author: Chris McDonough
+Author-email: chrism@plope.com
+License: BSD-derived (http://www.repoze.org/LICENSE.txt)
+Download-URL: http://dist.supervisord.org/
+Description: Supervisor is a client/server system that allows its users to
+        control a number of processes on UNIX-like operating systems. 
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Topic :: System :: Boot
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration
