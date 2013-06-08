@@ -1,0 +1,4 @@
+/etc/supervisor/conf.d/README
+/etc/supervisor/supervisord.conf
+/etc/default/supervisor
+/etc/init.d/supervisor
