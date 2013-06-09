@@ -1,8 +1,7 @@
 supervisor (3.0b2-1) precise; urgency=low
 
-  * New upstream release.
   * Non-maintainer upload.
-  * Closes: #697883.
+  * New upstream release (Closes: #697883).
 
  -- Laurent Peuch <cortex@worlddomination.be>  Sat, 08 Jun 2013 23:58:45 +0200
 
