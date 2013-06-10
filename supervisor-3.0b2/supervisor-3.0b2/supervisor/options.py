@@ -290,16 +290,6 @@ class Options:
                     self._set(name, value, 1)
 
         if self.configfile is None:
-            if os.getuid() == 0 and self.progname.find("supervisord") > -1: # pragma: no cover
-                self.warnings.warn(
-                    'Supervisord is running as root and it is searching '
-                    'for its configuration file in default locations '
-                    '(including its current working directory); you '
-                    'probably want to specify a "-c" argument specifying an '
-                    'absolute path to a configuration file for improved '
-                    'security.'
-                    )
-
             self.configfile = self.default_configfile()
 
         self.process_config()
